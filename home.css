@@ -1,0 +1,142 @@
+@font-face {
+    font-family: boska;
+    src: url(fonts/Boska-Bold.otf);
+}
+
+@font-face {
+    font-family: stardom;
+    src: url(fonts/Stardom-Regular.otf);
+}
+
+@font-face {
+    font-family: erode;
+    src: url(fonts/Erode-Semibold.otf);
+}
+
+@keyframes appear {
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: boska;
+    background-color: #E9E9E9;
+}
+
+nav{
+    background-color: #22222E;
+    width: 100%;
+    font-size:40px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    a{
+        text-decoration: none;
+        color: #ADA9BA;
+        padding: 8px;
+    }
+    
+    a:hover{
+        color: #ffffff;
+    }
+}
+
+.right{
+    float: right;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.first{
+    border: none;
+    border-radius: 20px;
+    background-color: #dbdada;
+    padding: 2px;
+    margin: 17px;
+    box-shadow: 10px 10px 5px #ADA9BA;
+}
+
+.first:hover{
+    transform: scale(1.01);
+    transition: all 0.4s ease-in-out 0.4s;
+}
+
+.top-space{
+    text-align: center;
+    color: #22222E;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.top-image{
+    text-align: center;
+
+    img{
+        border-radius: 50%;
+        box-shadow: 6px 6px 6px #ADA9BA;
+        box-sizing: border-box;
+        padding: 3px;
+    }
+
+    img:hover{
+        transform: scale(1.019);
+        transition: all 0.2s ease-in-out 0s;
+    }
+}
+
+.about-me-paragraph{
+    text-align: center;
+    font-size: 20px;
+    font-family: erode;
+    color: #33334d;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+
+    img{
+        opacity: 0.9;
+    }
+
+    img:hover{
+        opacity: 1;
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out 0s;
+    }
+}
+.link-image{
+    padding: 7px;
+}
+
+footer{
+    text-align: center;
+    font-family: stardom;
+    font-size: 14px; 
+    color: #ADA9BA;
+    margin: 0px;
+    background-color: #22222E;
+    padding: 20px;
+    opacity: 0.99;
+
+    a{
+        text-decoration: none;
+        color: #ADA9BA;
+        padding: 8px;
+    }
+    
+    a:hover{
+        color: #ffffff;
+    }
+}

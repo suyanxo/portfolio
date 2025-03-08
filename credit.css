@@ -1,0 +1,90 @@
+@font-face {
+    font-family: erode;
+    src: url(fonts/Erode-Semibold.otf);
+}
+
+body{
+    margin: 0px;
+    font-family: erode;
+    background-color: #E9E9E9;
+}
+
+nav{
+    background-color: #22222E;
+    width: 100%;
+    font-size:40px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: boska;
+
+    a{
+        text-decoration: none;
+        color: #ADA9BA;
+        padding: 8px;
+    }
+    
+    a:hover{
+        color: #ffffff;
+    }
+}
+
+.right{
+    float: right;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-part{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dbdada;
+    padding: 5px;
+    margin: 17px;
+    box-shadow: 10px 10px 5px #ADA9BA;
+
+    ul {
+        display: inline;
+        list-style: none;
+        margin:20px;
+        padding: 0px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #22222E;
+        padding: 8px;
+    }
+    
+    a:hover{
+        color: #878794;
+    }
+}
+
+footer{
+    text-align: center;
+    font-family: stardom;
+    font-size: 14px; 
+    color: #ADA9BA;
+    margin: 0px;
+    background-color: #22222E;
+    padding: 20px;
+    opacity: 0.99;
+
+    a{
+        text-decoration: none;
+        color: #ADA9BA;
+        padding: 8px;
+    }
+    
+    a:hover{
+        color: #ffffff;
+    }
+}

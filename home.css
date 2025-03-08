@@ -116,8 +116,69 @@ nav{
         transition: all 0.2s ease-in-out 0s;
     }
 }
+
 .link-image{
     padding: 7px;
+}
+
+
+.second-block{
+    display: flex;
+}
+.skills{
+    border: none;
+    border-radius: 20px;
+    background-color: #dbdada;
+    padding: 2px;
+    margin: 17px;
+    box-shadow: 10px 10px 5px #ADA9BA;
+    color: #22222E;
+    width: 50%;
+    height: 100%;
+}
+
+.home-text{
+    text-align: center;
+}
+.skills img{
+    opacity: 0.9;
+}
+
+.skills img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.skills-image{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.skills-img{
+    padding: 16px;
+}
+
+.projects{
+    border: none;
+    border-radius: 20px;
+    background-color: #dbdada;
+    padding: 2px;
+    margin: 17px;
+    box-shadow: 10px 10px 5px #ADA9BA;
+    color: #22222E;
+    width: 50%;
+    height: 350px;
+    overflow: auto;
+}
+
+.projects  ul {
+    display: inline;
+    list-style: none;
+    margin:20px;
+    padding: 0px;
 }
 
 footer{
